@@ -20,6 +20,7 @@ const Home = () => {
       <Team/>
       <Reservation/>
       <Footer/>
+      
     </>
   )
 }

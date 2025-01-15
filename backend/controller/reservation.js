@@ -20,7 +20,7 @@ const send_reservation = async (req, res, next) => {
       const validationErrors = Object.values(error.errors).map(err => err.message);
       return next(new ErrorHandler(validationErrors.join(', '), 400));
     }
-
+//handle the errors
     // Handle other errors
     return next(error);
   }
